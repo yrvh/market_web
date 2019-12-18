@@ -1,19 +1,25 @@
-// pages/car/car.js
+// pages/orderDetail/orderDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectedCommodity: 5,
-    selectedCommodityTotal: "¥333.77",
-    numBtn: ">",
+    statusIcon: "/assets/icon/notpay.png",
+    statusTitle: "等待买家付款",
+    statusMessage: "还剩23小时40分自动关闭",
+    telName: "张三",
+    telNum: 13754945600,
+    telAddress: "广西北海海城区北京路323号商铺北海k昆明路案扥55号",
+    storeName: "老张商铺",
+    imgUrl: "/assets/img/goods-list2.png",
+    goodsText: "三只松鼠爆浆曲奇160g烘焙甜品饼干手工网红爆......",
+    goodsPrice: "¥12.00",
+    goodsNum: 3,
+    logisticsMessage: "广州转运中心公司 已出发, 下一站 南宁转运公司",
+    logisticsDate: "2019-10-22 11:12:55"
   },
-  handleToSureOrder() {
-    wx.navigateTo({
-      url: '/pages/sureOrder/sureOrder',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

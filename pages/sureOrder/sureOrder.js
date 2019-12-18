@@ -1,19 +1,20 @@
-// pages/car/car.js
+// pages/sureOrder/sureOrder.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    selectedCommodity: 5,
-    selectedCommodityTotal: "¥333.77",
-    numBtn: ">",
+    telName: "张载",
+    telNum: "17983218500",
+    telAddress: "广西北海海城区北京路323号商铺北海卡萨当减肥狂23号",
+    storeName: "老张商铺",
+    imgUrl: "/assets/img/goods-list2.png",
+    goodsText: "三只松鼠爆浆曲奇160g烘焙甜品饼干手工网红爆......",
+    goodsPrice: "¥12.00",
+    goodsNum: 3
   },
-  handleToSureOrder() {
-    wx.navigateTo({
-      url: '/pages/sureOrder/sureOrder',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

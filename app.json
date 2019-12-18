@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/mine/mine",
+    "pages/orderDetail/orderDetail",
+    "pages/sureOrder/sureOrder",
     "pages/car/car",
     "pages/sort/sort",
-    "pages/home/home",
-    "pages/mine/mine"
+    "pages/home/home"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -47,7 +49,6 @@
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",
-
   "networkTimeout": {
     "request": 10000,
     "connectSocket": 20000,
@@ -57,6 +58,11 @@
   "usingComponents": {
     "search": "/components/search/search",
     "yellow-btn": "/components/yellow-btn/yellow-btn",
-    "goods-list":"/components/goods-list/goods-list"
+    "goods-list": "/components/goods-list/goods-list",
+    "add-goods": "/components/add-goods/add-goods",
+    "store": "/components/store/store",
+    "tel-address": "/components/tel-address/tel-address",
+    "order-tabbar": "/components/order-tabbar/order-tabbar",
+    "sureorder-message": "/components/sureOrder-message/sureOrder-message"
   }
 }

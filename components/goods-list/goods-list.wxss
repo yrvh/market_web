@@ -16,5 +16,5 @@
 }
 .goods-list-message-price {
   margin-top: 65rpx;
-  font-weight: 700;
+  font-weight: 600;
 }
